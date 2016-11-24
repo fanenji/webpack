@@ -13,8 +13,10 @@
     "lint": "eslint --ext .js,.vue src{{#unit}} test/unit/specs{{/unit}}{{#e2e}} test/e2e/specs{{/e2e}}"{{/lint}}
   },
   "dependencies": {
-    "vue": "^2.1.0",
-    "leaflet": "^1.0.2"
+    "interact": "0.0.3",
+    "leaflet": "^1.0.2",
+    "underscore": "^1.8.3",
+    "vue": "^2.1.0"
   },
   "devDependencies": {
     "autoprefixer": "^6.4.0",
